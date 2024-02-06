@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="timeFromCreateToActivate=6000" db_object_id="a6dc0923a8448610c2c3a6b601d043c6" label="Orders" max_length="40" name="x_snc_dell_orders" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Agreement type" max_length="40" name="agreement_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset tag" max_length="40" name="asset_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="company" type="string"/>
+        <element attributes="timeFromCreateToActivate=6000" label="Contract number" max_length="15" name="contract_number" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost center" max_length="40" name="cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency code" max_length="40" name="currency_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Database option" max_length="40" name="database_option" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Edition" max_length="40" name="edition" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GL account" max_length="40" name="gl_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="License metric" max_length="40" name="license_metric" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="License type" max_length="40" name="license_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Metric group" max_length="40" name="metric_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Named user type" max_length="40" name="named_user_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of packs" max_length="40" name="number_of_packs" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Owned by" max_length="40" name="owned_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Platform" max_length="40" name="platform" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PO number" max_length="40" name="po_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product" max_length="40" name="product" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="40" name="publisher" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher part number" max_length="40" name="publisher_part_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchased" max_length="40" name="purchased" type="string"/>
+        <element attributes="timeFromCreateToActivate=6000" label="Purchased rights" max_length="40" name="purchased_rights" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Rights per license pack" max_length="40" name="rights_per_license_pack" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SAP license metric" max_length="40" name="sap_license_metric" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Subscription period" max_length="40" name="subscription_period" type="string"/>
+        <element attributes="timeFromCreateToActivate=6000" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit cost" max_length="40" name="unit_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit of consumption" max_length="40" name="unit_of_consumption" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unlimited license" max_length="40" name="unlimited_license" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Version" max_length="40" name="version" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

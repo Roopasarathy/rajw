@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Reject Mapping</name>
+        <parent_macroponent display_value="Landing Page">210f41673c4486107a758447b7a1853e</parent_macroponent>
+        <source_component/>
+        <source_da display_value="reject">e10f4167d1448610c07827a24e912444</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 07:11:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e90f41671b448610f0259bf4e6c5082f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_e90f41671b448610f0259bf4e6c5082f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:11:45</sys_updated_on>
+        <target_event display_value="My tasks reject">ed0f4167764486102ec8771d5082b52e</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Dell WS</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>dell-ws Search Profile</label>
+        <name>x_snc_dell_nghwnwy_search_profile</name>
+        <publish_id>8612a796-71f6-4cc3-a068-1dee4d630452</publish_id>
+        <qna_model_id/>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:13:49</sys_created_on>
+        <sys_id>748f81a7d644861006cf15662529a854</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>dell-ws Search Profile</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>ais_search_profile_748f81a7d644861006cf15662529a854</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:14:38</sys_updated_on>
+    </ais_search_profile>
+</record_update>

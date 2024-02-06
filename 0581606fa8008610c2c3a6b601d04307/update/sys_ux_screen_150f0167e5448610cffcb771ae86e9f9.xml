@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Custom Portal App Config">c90f0167a8448610c2c3a6b601d043da</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[ {
+  "eventMappingId" : "ckhbsbbdiidaaaaddcddhhhqllgffboti",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_dell.NAV_ITEM_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_dell.NAV_ITEM_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckhbsbbdiidaaaaddbddhhhqxjeevlfoq",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhbsbbdccggaaaaddiiddhhhqibccggpyeed",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_dell.MODAL_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_dell.MODAL_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          },
+          "viewportElementId" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportFields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckhbsbbdccggaaaaddhhddhhhqbpfflffoqu",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckhddggoiimxaaaaaasddhhhiifdaateixm",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "0581606fa8008610c2c3a6b601d04307.MODAL_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "0581606fa8008610c2c3a6b601d04307.MODAL_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportElementId" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportFields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckhddggoiimxaaaaaarddhhhiiqvuzggzsc",
+    "type" : "EVENT"
+  } ]
+}, {
+  "eventMappingId" : "ckghhccwmjjyaaaaaaeddhhhgtxuccbwnw",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "global.NAV_ITEM_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "global.NAV_ITEM_SELECTED_RELAY_210f41673c4486107a758447b7a1853e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"
+    },
+    "operation" : null,
+    "targetId" : "ckghhccwmjjyaaaaaadddhhhgffcceifcoff",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Landing Page">210f41673c4486107a758447b7a1853e</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Landing Page Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Landing Page">ed0f41677b448610dc5b214e95feb028</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 07:11:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>150f0167e5448610cffcb771ae86e9f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_ux_screen_150f0167e5448610cffcb771ae86e9f9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:11:45</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=150f0167e5448610cffcb771ae86e9f9"/>
+</record_update>

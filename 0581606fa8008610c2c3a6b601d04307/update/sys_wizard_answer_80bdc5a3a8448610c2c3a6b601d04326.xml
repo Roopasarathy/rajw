@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Things to do</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Things to do</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">918c07f519102110081a0d411e65eec5</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:05:50</sys_created_on>
+        <sys_id>80bdc5a3a8448610c2c3a6b601d04326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Things to do</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_wizard_answer_80bdc5a3a8448610c2c3a6b601d04326</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:05:50</sys_updated_on>
+        <table/>
+        <target_url>x_snc_dell_things_to_do.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

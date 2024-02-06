@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_dell_orders">active=true</condition>
+        <group/>
+        <name>Dell WS - x_snc_dell_orders</name>
+        <roles/>
+        <source_table>x_snc_dell_orders</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:13:59</sys_created_on>
+        <sys_id>2b8f45a7a8448610c2c3a6b601d0431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dell WS - x_snc_dell_orders</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_search_source_2b8f45a7a8448610c2c3a6b601d0431f</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:13:59</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b8f45a7a8448610c2c3a6b601d0431f"/>
+</record_update>

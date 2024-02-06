@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <search_context_config display_value="Dell WS - Workspace Search">388f81a7f94486100ed0f2a616334f4b</search_context_config>
+        <source display_value="Dell WS - x_snc_dell_things_to_do">e38f45a7a8448610c2c3a6b601d04336</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:14:38</sys_created_on>
+        <sys_id>3cbf8de7a8448610c2c3a6b601d043bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_3cbf8de7a8448610c2c3a6b601d043bc</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:14:38</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

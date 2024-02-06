@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_dell.user" name="x_snc_dell.user">9581606fa8008610c2c3a6b601d04315</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 03:52:51</sys_created_on>
+        <sys_id>5181606fa8008610c2c3a6b601d04316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9581606fa8008610c2c3a6b601d04315</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5181606fa8008610c2c3a6b601d04316</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 03:52:51</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

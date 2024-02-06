@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,state</field_list>
+        <name>My request - incident predicate</name>
+        <order/>
+        <predicate_bundle display_value="My requests - incident bundle">510f4167c244861068896ae105b7c915</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-05 07:11:44</sys_created_on>
+        <sys_id>590f41679e448610946c2775f208da10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My request - incident predicate</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_590f41679e448610946c2775f208da10</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:11:44</sys_updated_on>
+        <table>incident</table>
+        <ux_template display_value="Item produced template">dd0f41671b448610f485af69e74e3413</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

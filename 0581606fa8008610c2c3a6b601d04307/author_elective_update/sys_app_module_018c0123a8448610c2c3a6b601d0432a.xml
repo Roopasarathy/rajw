@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Dell 1707116427066</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_dell_1707116427066</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:00:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>018c0123a8448610c2c3a6b601d0432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dell 1707116427066</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_update_name>sys_app_module_018c0123a8448610c2c3a6b601d0432a</sys_update_name>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:00:43</sys_updated_on>
+        <timeline_page/>
+        <title>Dell 1707116427066</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dell">0581606fa8008610c2c3a6b601d04307</application>
+        <file_path/>
+        <instance_id>904cc520a1b25190ca849c13e1944d24</instance_id>
+        <instance_name>sppsreidrtest8</instance_name>
+        <name>sys_app_module_018c0123a8448610c2c3a6b601d0432a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Dell 1707116427066</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_dell_1707116427066</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by><sys_created_on>2024-02-05 07:00:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>018c0123a8448610c2c3a6b601d0432a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dell 1707116427066</sys_name><sys_overrides/><sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package><sys_policy/><sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope><sys_update_name>sys_app_module_018c0123a8448610c2c3a6b601d0432a</sys_update_name><sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by><sys_updated_on>2024-02-05 07:00:43</sys_updated_on><timeline_page/><title>Dell 1707116427066</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1359858275</payload_hash>
+        <record_name>Dell 1707116427066</record_name>
+        <reverted_from/>
+        <source>8581606fa8008610c2c3a6b601d0430b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:00:43</sys_created_on>
+        <sys_id>598c0123a8448610c2c3a6b601d0432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d7811b9510000001</sys_recorded_at>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:00:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d98c012374448610776e74d2fae82f2c</update_guid>
+        <update_guid_history>d98c012374448610776e74d2fae82f2c:1359858275</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dell 1707116427066">790d0163a8448610c2c3a6b601d04347</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>rajeshkumar.vanapart.snf.aus@snc</sys_created_by>
+        <sys_created_on>2024-02-05 07:02:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>431c3d2ba9304bbc8d48ad9f3c7eb1e4</sys_id>
+        <sys_metadata>018c0123a8448610c2c3a6b601d0432a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dell 1707116427066</sys_name>
+        <sys_package display_value="Dell" source="x_snc_dell">0581606fa8008610c2c3a6b601d04307</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dell">0581606fa8008610c2c3a6b601d04307</sys_scope>
+        <sys_scope_delete display_value="">33469d99545441d085615002cc88e900</sys_scope_delete>
+        <sys_update_name>sys_app_module_018c0123a8448610c2c3a6b601d0432a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_018c0123a8448610c2c3a6b601d0432a">598c0123a8448610c2c3a6b601d0432d</sys_update_version>
+        <sys_updated_by>rajeshkumar.vanapart.snf.aus@snc</sys_updated_by>
+        <sys_updated_on>2024-02-05 07:02:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
